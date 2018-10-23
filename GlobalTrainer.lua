@@ -1,4 +1,4 @@
-local NPCID = 500500
+local NPCID = 500500   -- Put here your NPC ID
 
 function On_Gossip(event, player, pUnit)
 
