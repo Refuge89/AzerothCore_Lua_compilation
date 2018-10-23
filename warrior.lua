@@ -1,3 +1,9 @@
+--[[
+Author: Poszer
+About:
+Warrior trainer script
+]]
+
 function LevelUP1 (event, player) --If the player levelup
                 if player:GetClass() == 1 then --If the player class is Warrior
                 if (player:GetLevel() == 1) then --If the player level 1
