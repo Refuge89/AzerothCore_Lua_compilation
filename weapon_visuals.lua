@@ -5,6 +5,7 @@ About:
 All weapons looted have a 25% chance to have a random enchant visual
 This is purely visual fun and the visual will be replaced when the weapon is enchanted.
 This script is 100% automatic. You can only put it to your script folder and it will work.
+[ This is the automatic Weapon Visual lua script ]
 ]]
 
 local chance = 0.25
