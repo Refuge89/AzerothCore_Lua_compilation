@@ -3,7 +3,7 @@ local Broadcast = {
 		-- {"String", day, time}
 		--    Day is from 1 to 7, where Monday is 1 and Sunday is 7
 		--    Time is either seconds if day is 0 or format hour.minutes if day is specified
-		{"Mensaje", 0, 1},
+		{"Put your Message Here", 0, 1},
 	}
 }
 
