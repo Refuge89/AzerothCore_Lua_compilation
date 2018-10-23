@@ -1,4 +1,4 @@
-local NPC_ID = 60002
+local NPC_ID = 60002    -- Put your NPC ID here  ( Script will show Top arena teams from 2v2/3v3/5v5 )
  
  local arena = {
         [2] = {"TOP 10 arena 2v2"},
