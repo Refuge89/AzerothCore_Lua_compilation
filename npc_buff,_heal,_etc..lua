@@ -2,14 +2,14 @@ local npcid = 190018
  
 function morph_gossip(unit, player, creature)
     player:GossipMenuAddItem(0, "|TInterface\\icons\\Spell_ChargePositive:30:30:-15:0|t Buffs|r", 0, 1)
-    player:GossipMenuAddItem(0, "|TInterface\\icons\\Spell_Nature_Rejuvenation:30:30:-15:0|t Me cure|r", 0, 2)
-    player:GossipMenuAddItem(0, "|TInterface\\icons\\Spell_Holy_BlessedRecovery:30:30:-15:0|t Remover Enjoo de Ressurreição|r", 0, 3)
-	player:GossipMenuAddItem(0, "|TInterface\\icons\\Ability_Parry:30:30:-15:0|t Resetar Combate|r", 0, 4)
-	player:GossipMenuAddItem(0, "|TInterface\\icons\\Spell_Arcane_MassDispel:30:30:-15:0|t Resetar Cooldown|r", 0, 5)
-	player:GossipMenuAddItem(0, "|TInterface\\icons\\Spell_Arcane_FocusedPower:30:30:-15:0|t Resetar Talentos|r", 0, 6, false, "Tem certeza de que deseja Resetar seus Pontos de Talento?")
-	player:GossipMenuAddItem(0, "|TInterface\\icons\\Spell_Shadow_UnstableAffliction_1:30:30:-15:0|t Resetar Instâncias|r", 0, 7, false, "Tem certeza de que deseja descinvular-se de todas as instâncias?")
-	player:GossipMenuAddItem(0, "|TInterface\\icons\\Ability_Repair:30:30:-15:0|t Reparar Itens|r", 0, 8)
-    player:GossipMenuAddItem(0, "|TInterface\\icons\\achievement_reputation_01:30:30:-15:0|t Deixa pra lá...|r", 0, 999)
+    player:GossipMenuAddItem(0, "|TInterface\\icons\\Spell_Nature_Rejuvenation:30:30:-15:0|t Heal me|r", 0, 2)
+    player:GossipMenuAddItem(0, "|TInterface\\icons\\Spell_Holy_BlessedRecovery:30:30:-15:0|t Remove ressurection sickness|r", 0, 3)
+	player:GossipMenuAddItem(0, "|TInterface\\icons\\Ability_Parry:30:30:-15:0|t Reset Combat|r", 0, 4)
+	player:GossipMenuAddItem(0, "|TInterface\\icons\\Spell_Arcane_MassDispel:30:30:-15:0|t Reset Cooldowns|r", 0, 5)
+	player:GossipMenuAddItem(0, "|TInterface\\icons\\Spell_Arcane_FocusedPower:30:30:-15:0|t Reset Talents|r", 0, 6, false, "Tem certeza de que deseja Resetar seus Pontos de Talento?")
+	player:GossipMenuAddItem(0, "|TInterface\\icons\\Spell_Shadow_UnstableAffliction_1:30:30:-15:0|t Reset Instances|r", 0, 7, false, "Tem certeza de que deseja descinvular-se de todas as instâncias?")
+	player:GossipMenuAddItem(0, "|TInterface\\icons\\Ability_Repair:30:30:-15:0|t Repair Items|r", 0, 8)
+    player:GossipMenuAddItem(0, "|TInterface\\icons\\achievement_reputation_01:30:30:-15:0|t Nevermind...|r", 0, 999)
     player:GossipSendMenu(1, creature)
 end
  
